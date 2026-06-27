@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  nexusflow-app:
+    container_name: nexusflow_app_container
+    build: .
+    # 💡 Note: If changes aren't registering, consider commenting out this volume mount 
+    # to stop local system files from stomping over your clean docker builds:
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+    command: streamlit run src/app.py --server.port=8501 --server.address=0.0.0.0
+    environment:
+      - CHROMA_HOST=chroma
+      - DB_HOST=nexusflow-db
+      # ✨ Aligned perfectly with your active PostgreSQL container schema settings:
+      - DB_NAME=nexusflow_db
+      - DB_USER=postgres
+      - DB_PASSWORD=enterprise_password_2026
+      - DB_PORT=5432
+      # 🚀 Explicitly baking your resilient rotation keys straight into the engine:
+      - GEMINI_KEY_POOL_1=${GEMINI_KEY_POOL_1}
+      - GEMINI_KEY_POOL_2=${GEMINI_KEY_POOL_2}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    networks:
+      - nexusflow-mesh
+    depends_on:
+      - chroma
+      - nexusflow-db
+
+  chroma:
+    container_name: chromadb
+    image: chromadb/chroma:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - nexusflow_chroma_data:/chroma/chroma
+    networks:
+      - nexusflow-mesh
+
+  nexusflow-db:
+    container_name: nexusflow-db
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    environment:
+      # ✨ Ensured the core database matching criteria stays identical:
+      - POSTGRES_DB=nexusflow_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=enterprise_password_2026
+    volumes:
+      - nexusflow_postgres_data:/var/lib/postgresql/data
+    networks:
+      - nexusflow-mesh
+
+networks:
+  nexusflow-mesh:
+    driver: bridge
+
+volumes:
+  nexusflow_postgres_data:
+  nexusflow_chroma_data:
