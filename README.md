@@ -21,6 +21,6 @@
 
 ## 📖 About NexusFlow 
 
-NexusFlow is an enterprise-grade AI platform that automates asset compliance inspections using multimodal artificial intelligence, semantic memory retrieval, and explainable decision-making.
+**NexusFlow** is an enterprise-grade AI platform that automates asset compliance inspections using multimodal artificial intelligence, semantic memory retrieval, and explainable decision-making.
 
 The platform combines computer vision, enterprise memory, compliance validation, and intelligent reasoning to analyze physical assets, detect damage, assess operational risks, and generate executive compliance reports. Designed with a multi-tenant architecture, NexusFlow provides historical audit trails, long-term organizational memory, AI explainability, and real-time analytics through an interactive enterprise dashboard.
