@@ -77,5 +77,5 @@ Asset images and user prompts are processed through parallel **Vision** and **Me
 > **Figure 1:** High-level architecture of the NexusFlow Enterprise Asset Compliance Platform.
 
 <p align="center">
-  <img src="images/system_architecture.png" width="100%">
+  <img src="images/system_architecture.jpeg" alt="NexusFlow System Architecture" width="100%">
 </p>
