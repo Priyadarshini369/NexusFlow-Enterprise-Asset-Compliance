@@ -91,3 +91,47 @@ The final inspection results, audit logs, and compliance reports are stored in P
 <p align="center">
   <img src="images/backend_execution_pipeline.png" alt="Backend Execution Pipeline" width="100%">
 </p>
+
+---
+
+## 🚀 Installation & Running
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Priyadarshini369/NexusFlow-Enterprise-Asset-Compliance.git
+cd NexusFlow-Enterprise-Asset-Compliance
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Configure Environment Variables
+
+Create a `.env` file using `.env.example` and update it with your required credentials, including:
+
+* Gemini API Key
+* PostgreSQL Configuration
+* ChromaDB Configuration
+
+### 4️⃣ Start Database Services
+
+```bash
+docker-compose up -d
+```
+
+### 5️⃣ Launch the Application
+
+```bash
+streamlit run app.py
+```
+
+The application will be available at:
+
+```text
+http://localhost:8501
+```
+
