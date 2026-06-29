@@ -19,8 +19,53 @@
 
 ---
 
-## 📖 About NexusFlow 
+## 📖 About NexusFlow
 
 **NexusFlow** is an enterprise-grade AI platform that automates asset compliance inspections using multimodal artificial intelligence, semantic memory retrieval, and explainable decision-making.
 
-The platform combines computer vision, enterprise memory, compliance validation, and intelligent reasoning to analyze physical assets, detect damage, assess operational risks, and generate executive compliance reports. Designed with a multi-tenant architecture, NexusFlow provides historical audit trails, long-term organizational memory, AI explainability, and real-time analytics through an interactive enterprise dashboard.
+The platform combines computer vision, enterprise memory, compliance validation, and AI-powered reasoning to inspect physical assets, identify damage, assess operational risks, and generate executive compliance reports. By integrating Gemini 2.5 Flash, ChromaDB, PostgreSQL, and Streamlit, NexusFlow delivers intelligent asset analysis, historical audit tracking, contextual memory retrieval, and actionable compliance recommendations through an interactive enterprise dashboard.
+
+---
+
+## ✨ Key Features
+
+* 🤖 **AI-Powered Asset Inspection** – Analyze images of enterprise assets using Gemini 2.5 Flash to identify physical damage and asset conditions.
+
+* 🧠 **Multimodal AI Reasoning** – Combine visual information with user prompts to generate intelligent, context-aware compliance assessments.
+
+* 📚 **Semantic Memory Retrieval** – Store and retrieve historical inspection data using ChromaDB for contextual and consistent decision-making.
+
+* 📋 **Automated Compliance Reports** – Generate structured enterprise reports including compliance requirements, operational risks, executive action items, and recommendations.
+
+* ⚠️ **Risk Assessment Engine** – Detect potential operational and compliance risks based on asset condition and enterprise best practices.
+
+* 🗃️ **Historical Audit Trail** – Maintain inspection history, reports, and audit records using PostgreSQL for traceability and future reference.
+
+* 📊 **Interactive Enterprise Dashboard** – User-friendly Streamlit interface for image uploads, prompt input, report generation, and inspection history.
+
+* 🔍 **Retrieval-Augmented Generation (RAG)** – Enhance AI responses by combining semantic memory with enterprise context for more accurate recommendations.
+
+* 🐳 **Containerized Deployment** – Docker and Docker Compose support for simplified deployment and consistent development environments.
+
+* 📈 **Enterprise-Ready Architecture** – Modular, scalable design that integrates AI reasoning, memory retrieval, compliance analysis, and persistent data storage.
+
+---
+
+## 🏗️ Technology Stack
+
+| Category                | Technology                           | Purpose                                                                                   |
+| ----------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------- |
+| **Backend Framework**   | Python 3.11                          | Implements business logic, AI orchestration, compliance processing, and report generation |
+| **Frontend**            | Streamlit                            | Interactive web dashboard and user interface                                              |
+| **AI Model**            | Gemini 2.5 Flash                     | Multimodal reasoning, image understanding, and report generation                          |
+| **Vector Database**     | ChromaDB                             | Semantic memory storage and retrieval                                                     |
+| **Relational Database** | PostgreSQL                           | Persistent storage for users, reports, audit logs, and inspection history                 |
+| **Computer Vision**     | Gemini Vision                        | Asset image analysis and damage detection                                                 |
+| **Retrieval Framework** | RAG (Retrieval-Augmented Generation) | Context-aware AI responses using enterprise memory                                        |
+| **Containerization**    | Docker                               | Consistent application deployment                                                         |
+| **Orchestration**       | Docker Compose                       | Multi-container service management                                                        |
+| **Version Control**     | Git & GitHub                         | Source code management and collaboration                                                  |
+
+---
+
+
