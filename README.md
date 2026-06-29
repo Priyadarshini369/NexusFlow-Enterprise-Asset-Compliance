@@ -79,3 +79,15 @@ Asset images and user prompts are processed through parallel **Vision** and **Me
 <p align="center">
   <img src="images/system_architecture.jpeg" alt="NexusFlow System Architecture" width="100%">
 </p>
+
+## ⚙️ Backend Execution Pipeline
+
+NexusFlow processes every inspection request through a structured AI workflow. After an asset image and user prompt are submitted, the Agent Brain coordinates vision analysis, semantic memory retrieval, compliance validation, and AI reasoning to generate an executive compliance report.
+
+The final inspection results, audit logs, and compliance reports are stored in PostgreSQL, while semantic embeddings are indexed in ChromaDB to support future contextual retrieval and continuous enterprise memory.
+
+> **Figure 2:** Backend execution workflow of the NexusFlow Enterprise Asset Compliance Platform.
+
+<p align="center">
+  <img src="images/backend_execution_pipeline.png" alt="Backend Execution Pipeline" width="100%">
+</p>
