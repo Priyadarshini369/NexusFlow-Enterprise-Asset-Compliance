@@ -68,4 +68,14 @@ The platform combines computer vision, enterprise memory, compliance validation,
 
 ---
 
+## 🧩 System Architecture
 
+**NexusFlow** follows a modular AI architecture that combines computer vision, semantic memory, and enterprise compliance reasoning into a unified inspection workflow.
+
+Asset images and user prompts are processed through parallel **Vision** and **Memory** pipelines. The **Agent Brain** orchestrates AI reasoning, policy validation, and context retrieval before generating explainable compliance reports. Inspection records are stored in **PostgreSQL**, while semantic memory is maintained in **ChromaDB** for future retrieval.
+
+> **Figure 1:** High-level architecture of the NexusFlow Enterprise Asset Compliance Platform.
+
+<p align="center">
+  <img src="images/system_architecture.png" width="100%">
+</p>
