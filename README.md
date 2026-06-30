@@ -164,6 +164,6 @@ http://localhost:8501
 ---
 ![Dashboard Part 6](images/assetcomplaiance.png)
 
-### 🏠 Dashboard – NexusFlow Operational Core
-![Dashboard Part 1](images/dashboardact.png)
+### 🏠 Dashboard – Automated Forensic Compliance Audit
+![Dashboard Part 7](images/report.png)
 
