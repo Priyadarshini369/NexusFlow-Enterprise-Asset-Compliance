@@ -137,4 +137,22 @@ http://localhost:8501
 
 ---
 
+## 📸 Screenshots
 
+### 🏠 Dashboard – NexusFlow Operational Core
+![Dashboard Part 1](images/dashboardact.png)
+
+### 🤖 Dashboard – Forensic Decision Trace
+![Dashboard Part 2](images/aiexplainability.png)
+
+### 📋 Dashboard – Conflict Resolution & System Architecture
+![Dashboard Part 3](images/memoryconflict.png)
+
+### 🏠 Dashboard – Multi-Tenant Session Navigator
+![Dashboard Part 4](images/sidebar.png)
+
+### 🏠 Dashboard – Execution Forensic Trace
+![Dashboard Part 5](images/decisiontrace.png)
+
+### 🏠 Dashboard – Asset Compliance Ingestion
+![Dashboard Part 6](images/assetcomplaiance.png)
