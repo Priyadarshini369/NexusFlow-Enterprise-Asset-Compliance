@@ -80,6 +80,8 @@ Asset images and user prompts are processed through parallel **Vision** and **Me
   <img src="images/system_architecture.jpeg" alt="NexusFlow System Architecture" width="100%">
 </p>
 
+---
+
 ## ⚙️ Backend Execution Pipeline
 
 NexusFlow processes every inspection request through a structured AI workflow. After an asset image and user prompt are submitted, the Agent Brain coordinates vision analysis, semantic memory retrieval, compliance validation, and AI reasoning to generate an executive compliance report.
@@ -146,24 +148,31 @@ http://localhost:8501
 
 ### 🤖 Dashboard – Forensic Decision Trace
 ![Dashboard Part 2](images/aiexplainability.png)
+
 ---
 
 ### 📋 Dashboard – Conflict Resolution & System Architecture
 ![Dashboard Part 3](images/memoryconflict.png)
+
 ---
 
 ### 🏠 Dashboard – Multi-Tenant Session Navigator
 ![Dashboard Part 4](images/sidebar.png)
+
 ---
 
 ### 🏠 Dashboard – Execution Forensic Trace
 ![Dashboard Part 5](images/decisiontrace.png)
+
 ---
 
 ### 🏠 Dashboard – Asset Compliance Ingestion
----
 ![Dashboard Part 6](images/assetcomplaiance.png)
+
+---
 
 ### 🏠 Dashboard – Automated Forensic Compliance Audit
 ![Dashboard Part 7](images/report.png)
+
+---
 
